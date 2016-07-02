@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joedephillipo.inventory.ItemDetailActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        style="@style/DetailHeaders"
+        android:text="@string/item"/>
+
+    <TextView
+        style="@style/DetailText"
+        android:id="@+id/detail_name" />
+
+        <Button
+            style="@style/ButtonDetail"
+            android:layout_marginLeft="60dp"
+            android:text="@string/delete_button"
+            android:id="@+id/delete_item_button"/>
+    </LinearLayout>0d
+bu
+n"
+>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/DetailHeaders"
+            android:text="@string/quantity"/>
+
+        <TextView
+            style="@style/DetailText"
+            android:id="@+id/detail_quantity"
+            android:text="@string/quantity"/>
+
+        <Button
+            style="@style/ButtonDetail"
+            android:layout_marginLeft="80dp"
+            android:text="@string/order_button"
+            android:id="@+id/order_button"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        style="@style/DetailHeaders"
+        android:text="@string/price"/>
+
+    <TextView
+        style="@style/DetailText"
+        android:id="@+id/detail_price"
+        android:text="@string/price"/>
+
+    <Button
+        style="@style/ButtonDetail"
+        android:text="@string/track_button"
+        android:id="@+id/edit_quantity_button"/>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/item_detail_image"/>
+
+</LinearLayout>
